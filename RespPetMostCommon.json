@@ -1,4 +1,33 @@
-[
+"nodes" : [
+{ "name" : "Department or Secretary of Labor", "group":1 }, 
+{ "name" : "National Labor Relations Board, or regional office or officer", "group":1 }, 
+{ "name" : "State", "group":1 }, 
+{ "name" : "United States", "group":1 }, 
+{ "name" : "alien, person subject to a denaturalization proceeding, or one whose citize", "group":1 }, 
+{ "name" : "attorney, or person acting as such;includes bar applicant or law student, o", "group":1 }, 
+{ "name" : "defendant", "group":1 }, 
+{ "name" : "employee, or job applicant, including beneficiaries of", "group":1 }, 
+{ "name" : "employer. If employer's relations with employees are governed by the nature", "group":1 }, 
+{ "name" : "female employee or job applicant", "group":1 }, 
+{ "name" : "government contractor", "group":1 }, 
+{ "name" : "indigent defendant", "group":1 }, 
+{ "name" : "military personnel, or dependent of, including reservist", "group":1 }, 
+{ "name" : "owner, landlord, or claimant to ownership, fee interest, or possession of l", "group":1 }, 
+{ "name" : "person accused, indicted, or suspected of crime", "group":1 }, 
+{ "name" : "person allegedly criminally insane or mentally incompetent to stand trial", "group":1 }, 
+{ "name" : "person convicted of crime", "group":1 }, 
+{ "name" : "person or organization protesting racial or ethnic segregation or discrimin", "group":1 }, 
+{ "name" : "person subject to selective service, including conscientious objector", "group":1 }, 
+{ "name" : "prisoner, inmate of penal institution", "group":1 }, 
+{ "name" : "racial or ethnic minority employee or job applicant", "group":1 }, 
+{ "name" : "railroad", "group":1 }, 
+{ "name" : "taxpayer or executor of taxpayer's estate, federal only", "group":1 }, 
+{ "name" : "union, labor organization, or official of", "group":1 }, 
+{ "name" : "water transportation, stevedore", "group":1 }, 
+{ "name" : "witness, or person under subpoena", "group":1 }
+]
+
+"links": [
   {
     "source":"United States",
     "target":"person accused, indicted, or suspected of crime",
