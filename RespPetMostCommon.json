@@ -1,3 +1,4 @@
+{
 "nodes" : [
 { "name" : "Department or Secretary of Labor", "group":1 }, 
 { "name" : "National Labor Relations Board, or regional office or officer", "group":1 }, 
@@ -25,7 +26,7 @@
 { "name" : "union, labor organization, or official of", "group":1 }, 
 { "name" : "water transportation, stevedore", "group":1 }, 
 { "name" : "witness, or person under subpoena", "group":1 }
-]
+],
 
 "links": [
   {
@@ -229,3 +230,4 @@
     "value":68
   }
 ]
+}
