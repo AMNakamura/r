@@ -1,0 +1,29 @@
+If you are an occasional user of R at home or perhaps the lone statistician in your small office (been there, done that), this post’s for you. One of the things I like about R, in addition to its accessibility to those with limited financial resources, is the fact that it is constantly evolving.  Similar to SAS and Stata, R has a modular structure.  When you download a version of R, it comes with a set of built-in functionalities. Once you’ve installed a version, you can then enhance your installation by choosing from the vast selection of packages contributed by other R users, kind of like a smorgasbord with a lot more quality control.
+
+If you’re like me and not a daily R user, you notice you need an upgrade when you unpack your latest find from R-CRAN and it refuses to load or otherwise play nicely with your base installation. Luckily, your new package should give you a warning message telling you what version your package was built in.
+
+These instructions are for those of us using computers running the 32-bit version of Windows 7.
+
+<strong>Installing R the first time (difficulty level = easy)</strong>
+
+Over time, you will likely become a frequent visitor to CRAN (<a href="http://cran.us.r-project.org/">http://cran.us.r-project.org/</a>). CRAN stands for Comprehensive R Archive Network. <u>C</u>omprehensive: CRAN houses all of your R base versions and tested packages. <u>A</u>rchive: CRAN keeps a historical cache of all previous versions, with documentation. <u>N</u>etwork: R downloadables are distributed or “mirrored” on many servers around the world (16 currently in the U.S.), each with identical versions of the base software and packages. For a faster download, you will be encouraged to choose a mirror geographically closest to you.
+
+Unless you are ready to build your own R packages, you will only need to download the R Base Package.  After downloading the executables, installation is as easy as clicking ‘Next’ two or three times when prompted by the R setup wizard.
+
+<strong>Adding Packages (difficulty level = easy)</strong>
+
+The R Base Package contains its “basic” functions, which include the standard arithmetic, statistical, and processing tools and some useful, not-as-basic (e.g., “Fuzzy” string matching) functions.
+
+All contributed packages are linked with short descriptions here. <a href="http://cran.r-project.org/web/packages/available_packages_by_name.html">http://cran.r-project.org/web/packages/available_packages_by_name.html</a> At the time of this writing, there were 5019 available packages contributed by talented and generous folks to share.  A gentle description of packages can be found here: <a href="http://www.statmethods.net/interface/packages.html">http://www.statmethods.net/interface/packages.html</a>
+
+An example: To analyze survey data, you  need special tools to calculate the variance that reflect the sampling design.  Josh Pasek’s “Weights” package allows for calculation of weighted frequencies, means, and other descriptive statistics.
+
+Reminder: Before you can run a package, there may be other packages this one depends on. You need to install those as  well and call them first in your library statement. Dependant packages will be linked next to the package itself on the CRAN site and should download with the package you’re looking for. To keep my directory neat, I have my packages saved in one folder, ‘packages’.
+
+Here’s an example of the installation command, which will unpack your new module:  install.packages("weights", lib="c:/r/packages/"). After invoking the command, the R base software will walk you through the next steps.
+
+<strong>Upgrading </strong>
+
+It is possible to have two separate versions of R running on your machine.  I’m not a seasoned enough R user to tell you why someone would want concurrent versions available. The good news is, installing R is incredibly easy and, as mentioned before, CRAN keeps all of the old versions in an archive.  So, uninstalling your current version of R and replacing it with a newer one seems like a pretty low risk approach.
+
+Uninstalling R can be done from your Windows control panel. You uninstall R just like you uninstall any other program. Scroll down to find the R version (e.g., the Trick or Treat” version, R for Windows 2.15.2) and simply hit ‘Uninstall’. Reinstalling is now just a matter of going to the CRAN site, finding the most recent version, and downloading from a mirror near you.
